@@ -1,0 +1,39 @@
+{
+  "name": "motorino",
+  "version": "0.1.0",
+  "description": "Small 2D game engine in plain JavaScript: fixed-step loop, pixel screen, input, bitmap font, text sprites and maps, platformer physics with gravity in four directions, dialogues, UI widgets, PWA.",
+  "type": "module",
+  "main": "./src/index.js",
+  "files": [
+    "src",
+    "pwa",
+    "tools/icon.mjs",
+    "README.it.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo": "python3 tools/serve.py 8140"
+  },
+  "keywords": [
+    "game-engine",
+    "2d",
+    "canvas",
+    "pixel-art",
+    "platformer",
+    "retro",
+    "pwa",
+    "es-modules",
+    "no-dependencies"
+  ],
+  "author": "MindContact | Roberto Luttino",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MindContact/motorino.git"
+  },
+  "homepage": "https://github.com/MindContact/motorino#readme",
+  "bugs": "https://github.com/MindContact/motorino/issues",
+  "engines": {
+    "node": ">=18"
+  }
+}
