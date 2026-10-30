@@ -1,6 +1,6 @@
 {
   "name": "motorino",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small 2D game engine in plain JavaScript: fixed-step loop, pixel screen, input, bitmap font, text sprites and maps, platformer physics with gravity in four directions, dialogues, UI widgets, PWA.",
   "type": "module",
   "main": "./src/index.js",
